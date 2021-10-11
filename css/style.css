@@ -1,0 +1,155 @@
+/* VARIABLES */
+:root {
+    --primary-color: #d4374a;
+    --primary-color-darker: #aa0d20;
+}
+
+/* UTILITIES */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:visited {
+    color: white;
+}
+
+/* VARIABLES */
+
+body {
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+/* Top navbar */
+#top-navbar {
+    position: relative;
+    background: black;
+    color: white;
+    padding: 1.6rem;
+}
+
+#navbar-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+#top-navbar li,
+#sub-navbar li {
+    display: inline;
+}
+
+/* Sub-navbar */
+#sub-navbar {
+    position: relative;
+}
+
+#sub-navbar ul {
+    padding: 1rem;
+}
+
+#sub-navbar ul li {
+    padding: 0.5rem;
+}
+
+#navbar-bit-to-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+#cardiff-uni-logo {
+    height: 10px;
+    width: 10px;
+}
+
+/* HERO */
+#hero {
+    color: white;
+    position: relative;
+}
+
+#hero-image {
+    width: 100vw;
+}
+
+#hero-text-container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 70%;
+}
+
+#hero-text-container > * {
+    margin: 1rem 0rem;
+}
+
+#hero-text-container h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+#hero-text-container p {
+    font-size: 1.5rem;
+}
+
+.button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    background: var(--primary-color);
+    font-weight: bold;
+    color: white;
+    border: var(--primary-color) 1px solid;
+    border-radius: 0.2rem;
+    transition: background 0.2s, border 0.2s;
+}
+
+.button:hover {
+    background: var(--primary-color-darker);
+    border: var(--primary-color-darker) 1px solid;
+}
+
+#finder-block-container {
+    position: relative;
+
+    margin: auto;
+}
+
+/*  Find your course section */
+#finder-block {
+    position: absolute;
+    background: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    top: -1rem;
+    left: 3rem;
+    width: 80vw;
+}
+
+#finder-block > * {
+    margin: 0.5rem 0;
+}
+
+#course-finder-select {
+    padding: 0.5rem;
+    background: var(--primary-color-darker);
+    border: none;
+    color: white;
+    margin-bottom: 0;
+}
+
+#course-finder {
+    margin-top: 0;
+}
+
+#course-finder input {
+    width: 50%;
+}
